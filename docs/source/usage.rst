@@ -10,9 +10,9 @@ To use Lumache, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install
+   (.venv) $ pip install context-aware-jenkins-job-transfers
 
-Creating recipes
+Supported Functionalities
 ----------------
 
 To retrieve a list of random ingredients,

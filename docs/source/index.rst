@@ -12,6 +12,8 @@ Overview of the Capabilities
 3. Check for Plugin Dependencies of Jobs / Views
 
 Visualize all the above functionalities in a highly customizable terminal screen.
+=======
+
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.

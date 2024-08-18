@@ -26,5 +26,13 @@ Contents
 
 .. toctree::
 
+   introduction
+   installation
    usage
-   api
+   apiReference
+   changeLog
+   contribution
+   troubleShootingAndFaqs
+   acknowledgement
+   license
+   contact

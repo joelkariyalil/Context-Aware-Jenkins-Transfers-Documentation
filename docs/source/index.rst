@@ -11,7 +11,7 @@ Overview of the Capabilities
 2. Transfer View(s)
 3. Check for Plugin Dependencies of Jobs/Views
 
-**Visualize all the above functionalities in a well-designed terminal screen.**
+**Visualize all the above functionalities in a well-crafted terminal screen.**
 
 
 Check out the :doc:`usage` section for further information, including

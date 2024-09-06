@@ -27,13 +27,14 @@ Example usage:
     import jenkins_job_transfers as jt
 
     jt.connect(
-        "http://prod.example.com", 
-        "http://int.example.com", 
-        "prod_user", 
-        "int_user", 
-        "prod_pass", 
-        "int_pass"
-    )
+        production_machine_url=production_url,
+        interim_machine_url=interim_url,
+        production_username=production_username,
+        interim_username=interim_username,
+        production_password=production_password,
+        interim_password=interim_password,
+        mode='quiet'
+        )
 
 Transfer Jobs or Views
 

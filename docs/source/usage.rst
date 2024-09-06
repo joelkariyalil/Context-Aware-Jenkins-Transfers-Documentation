@@ -27,12 +27,12 @@ Example usage:
     import jenkins_job_transfers as jt
 
     jt.connect(
-        production_machine_url=production_url,
-        interim_machine_url=interim_url,
-        production_username=production_username,
-        interim_username=interim_username,
-        production_password=production_password,
-        interim_password=interim_password,
+        production_machine_url='http://127.0.0.1:8080',
+        interim_machine_url='http://127.0.0.1:8081',
+        production_username='production_username',
+        interim_username='interim_username',
+        production_password='production_password',
+        interim_password='interim_password,
         mode='quiet'
         )
 

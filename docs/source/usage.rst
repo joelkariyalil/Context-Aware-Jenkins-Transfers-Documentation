@@ -22,9 +22,11 @@ Parameters:
 
 Example usage:
 
-from context_aware_jenkins_job_transfers import connect
+.. code-block:: console
 
-connect(
+import jenkins_job_transfers as jt
+
+jt.connect(
     "http://prod.example.com", 
     "http://int.example.com", 
     "prod_user", 

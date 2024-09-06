@@ -24,16 +24,16 @@ Example usage:
 
 .. code-block:: console
 
-import jenkins_job_transfers as jt
+    import jenkins_job_transfers as jt
 
-jt.connect(
-    "http://prod.example.com", 
-    "http://int.example.com", 
-    "prod_user", 
-    "int_user", 
-    "prod_pass", 
-    "int_pass"
-)
+    jt.connect(
+        "http://prod.example.com", 
+        "http://int.example.com", 
+        "prod_user", 
+        "int_user", 
+        "prod_pass", 
+        "int_pass"
+    )
 
 Transfer Jobs or Views
 

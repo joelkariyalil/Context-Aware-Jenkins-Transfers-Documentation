@@ -1,12 +1,20 @@
 Supported Functionalities
 -------------------------
 
+.. note:
+
+    mode = 'quiet' or 'console'
+        - 'quiet' is complete non-verbose (success, failure messages are NOT printed on console)
+        - 'console' is verbose
+    By default, mode is 'console'.
+
 Connect to Jenkins Servers
 ___________________
 
 To connect to the production and interim Jenkins servers, use the `connect` function:
 
 **Function Syntax:**
+___________________
 
 .. code-block:: python
 

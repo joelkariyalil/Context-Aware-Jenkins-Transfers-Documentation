@@ -12,7 +12,7 @@ Supported Functionalities
     By default, mode is 'console'.
 
 
-
+----
 
 Connect to Jenkins Servers
 ___________________
@@ -65,7 +65,7 @@ To connect to the production and interim Jenkins servers, use the `connect` func
 
 
 
-
+----
 
 Transfer Jobs or Views
 ___________________
@@ -225,7 +225,7 @@ To clean up the interim Jenkins server, use the `interim_cleanup` function:
 
 
 
-    
+
 
 Set Console Size
 ___________________

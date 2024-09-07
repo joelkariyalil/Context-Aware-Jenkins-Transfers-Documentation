@@ -1,9 +1,6 @@
 Supported Functionalities
 -------------------------
 
-
-
-
 .. note::
 
     mode = 'quiet' or 'console'
@@ -47,7 +44,7 @@ To connect to the production and interim Jenkins servers, use the `connect` func
 
 .. code-block:: python
 
-    import context_aware_jenkins_job_transfers as jt
+    import jenkins_job_transfers as jt
 
     jt.connect(
         production_machine_url='http://127.0.0.1:8080',
@@ -62,7 +59,6 @@ To connect to the production and interim Jenkins servers, use the `connect` func
 .. warning::
 
     Connecting Jenkins servers before initiating other functions is necessary.
-
 
 
 ----
@@ -85,12 +81,23 @@ To transfer jobs or views from interim to production, use the `transfer` functio
 
 .. code-block:: python
 
-    from context_aware_jenkins_job_transfers import transfer
+    # Job Transfers
 
-    transfer(
-        ["job1", "job2"], 
+    import jenkins_job_transfers as jt
+
+    jt.transfer(
+        ["JobA", "JobB"], 
         ftype="job", 
         mode="console", 
+        allowDuplicates=True
+    )
+
+    # View Transfer
+
+    jt.transfer(
+        ['ViewA', 'ViewB'],
+        ftype="view",
+        mode="console",
         allowDuplicates=True
     )
 

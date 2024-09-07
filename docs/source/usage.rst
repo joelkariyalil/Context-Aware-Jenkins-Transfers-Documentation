@@ -63,7 +63,7 @@ Example usage:
 
 .. warning::
 
-    Connecting both Jenkins servers at the beginning is necessary.
+    Connecting Jenkins servers before initiating other functions is necessary.
 
 Transfer Jobs or Views
 

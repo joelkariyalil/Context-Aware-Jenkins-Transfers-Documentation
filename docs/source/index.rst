@@ -27,7 +27,6 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   introduction
    installation
    usage
    apiReference

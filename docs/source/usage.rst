@@ -81,9 +81,9 @@ To transfer jobs or views from interim to production, use the `transfer` functio
 
 .. code-block:: python
 
-    # Job Transfers
-
     import jenkins_job_transfers as jt
+
+    # Job Transfers
 
     jt.transfer(
         ["JobA", "JobB"], 

@@ -14,7 +14,7 @@ ___________________
 To connect to the production and interim Jenkins servers, use the `connect` function:
 
 **Function Syntax:**
-___________________
+^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: python
 

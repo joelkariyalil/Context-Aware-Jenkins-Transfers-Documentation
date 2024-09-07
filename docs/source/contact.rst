@@ -1,34 +1,28 @@
-Usage
-=====
+Contact
+=======
 
-.. _installation:
+Feel free to reach out if you have any questions, suggestions, or feedback!
 
-Installation
+**Author**: Joel Thomas Chacko
+
+
+Joel Thomas Chacko
+------------------
+
+Hello there, I'm Joel Thomas Chacko, a git :).
+
+Here are my social media handles.
+
+Social Media
 ------------
 
-To use Lumache, first install it using pip:
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-handle)
+- **Instagram**: [Your Instagram Profile](https://www.instagram.com/your-instagram-handle)
+- **Email**: [Your Gmail](mailto:your-email@gmail.com)
 
-.. code-block:: console
+Support the Author
+------------------
 
-   (.venv) $ pip install context-aware-jenkins-job-transfers
+If you found this project helpful, consider supporting me on Buy Me a Coffee:
 
-Supported Functionalities
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+[Buy Me a Coffee](https://buymeacoffee.com/joelkariyalil)

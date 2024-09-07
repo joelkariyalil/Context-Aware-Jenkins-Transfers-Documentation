@@ -34,7 +34,7 @@ Contents
    changeLog
    contribution
    license
-   FAQs
+   faqs
    contributors
    contact
    acknowledgement

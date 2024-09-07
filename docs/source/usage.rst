@@ -7,6 +7,7 @@ Supported Functionalities
         - 'quiet' is complete non-verbose (success, failure messages are NOT printed on console)
         - 'console' is verbose
     By default, mode is 'console'.
+    
 
 Connect to Jenkins Servers
 ___________________

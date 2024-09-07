@@ -35,5 +35,6 @@ Contents
    contribution
    license
    FAQs
+   contributors
    contact
    acknowledgement

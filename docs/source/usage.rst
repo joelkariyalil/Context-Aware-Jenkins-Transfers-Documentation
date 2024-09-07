@@ -122,12 +122,21 @@ To verify if the jobs or views meet the publish standards, use the `check_publis
 
 .. code-block:: python
 
-    from context_aware_jenkins_job_transfers import check_publish_standards
+    import jenkins_job_transfers as jt
 
-    check_publish_standards(
+    # Publish Standards Check for Jobs
+
+    jt.check_publish_standards(
         ["job1", "job2"], 
         ftype="job", 
         mode="console"
+    )
+
+    # Publish Standards Check for Views
+    
+    jt.check_publish_standards(
+        ["view1", "view2"], 
+        ftype="view", 
     )
 
 
@@ -150,10 +159,20 @@ To check plugin dependencies for jobs or views, use the `check_plugin_dependenci
 
 .. code-block:: python
 
-    from context_aware_jenkins_job_transfers import check_plugin_dependencies
+    import jenkins_job_transfers as jt
 
-    check_plugin_dependencies(
-        ["job1", "view1"], 
+    # Check Plugin Dependencies for Jobs
+
+    jt.check_plugin_dependencies(
+        ["job1", "job2"], 
+        ftype="job", 
+        mode="console"
+    )
+
+    # Check Plugin Dependencies for Views
+    
+    jt.check_plugin_dependencies(
+        ["view1", "view2"], 
         ftype="view", 
         mode="console"
     )
@@ -179,11 +198,21 @@ To check and install missing plugin dependencies, use the `check_and_install_plu
 
 .. code-block:: python
 
-    from context_aware_jenkins_job_transfers import check_and_install_plugin_dependencies
+    import jenkins_job_transfers as jt
 
-    check_and_install_plugin_dependencies(
-        ["job1", "view1"], 
+    # Check and Install Plugin Dependencies for Jobs
+
+    jt.check_and_install_plugin_dependencies(
+        ["job1", "job2"], 
         ftype="job", 
+        mode="console"
+    )
+
+    # Check and Install Plugin Dependencies for Views
+
+    jt.check_and_install_plugin_dependencies(
+        ["view1", "view2"], 
+        ftype="view", 
         mode="console"
     )
 
@@ -206,9 +235,9 @@ To clean up the production Jenkins server, use the `production_cleanup` function
 
 .. code-block:: python
 
-    from context_aware_jenkins_job_transfers import production_cleanup
+    import jenkins_job_transfers as jt
 
-    production_cleanup(mode="console")
+    jt.production_cleanup(mode="console")
 
 
 
@@ -229,9 +258,9 @@ To clean up the interim Jenkins server, use the `interim_cleanup` function:
 
 .. code-block:: python
 
-    from context_aware_jenkins_job_transfers import interim_cleanup
+    import jenkins_job_transfers as jt
 
-    interim_cleanup(mode="console")
+    jt.interim_cleanup(mode="console")
 
 
 
@@ -252,6 +281,6 @@ To set the width of the console output, use the `set_console_size` function:
 
 .. code-block:: python
 
-    from context_aware_jenkins_job_transfers import set_console_size
+    import jenkins_job_transfers as jt
 
-    set_console_size(120)
+    jt.set_console_size(120)

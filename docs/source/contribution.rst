@@ -1,34 +1,54 @@
-Usage
-=====
+Contributions
+=============
 
-.. _installation:
+We welcome contributions to enhance the functionality and performance of this module. If you would like to contribute, please follow the steps below:
 
-Installation
-------------
+1. **Fork the Repository**:
+   Fork the repository on GitHub to your own account.
 
-To use Lumache, first install it using pip:
+2. **Clone Your Fork**:
+   Clone your forked repository to your local machine.
 
-.. code-block:: console
+   .. code-block:: bash
 
-   (.venv) $ pip install context-aware-jenkins-job-transfers
+      $ git clone https://github.com/joelkariyalil/Jenkins-Transfers.git
 
-Supported Functionalities
-----------------
+3. **Create a New Branch**:
+   Create a new branch for your feature or bug fix.
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+   .. code-block:: bash
 
-.. autofunction:: lumache.get_random_ingredients
+      $ git checkout -b feature-branch
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+4. **Make Your Changes**:
+   Make your changes to the codebase.
 
-.. autoexception:: lumache.InvalidKindError
+5. **Commit Your Changes**:
+   Commit your changes with a meaningful message.
 
-For example:
+   .. code-block:: bash
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+      $ git commit -m "Description of the changes"
+
+6. **Push to Your Fork**:
+   Push your changes to your forked repository.
+
+   .. code-block:: bash
+
+      $ git push origin feature-branch
+
+7. **Create a Pull Request**:
+   Go to the original repository on GitHub and submit a Pull Request (PR) from your branch. Ensure you assign the PR to the author, Joel Thomas Chacko, or other members who can review the code.
+
+   We appreciate detailed descriptions of your changes and the problem you are addressing.
+
+8. **Code Review**:
+   Your PR will be reviewed by the author or other contributors. Please be open to feedback and be prepared to make revisions if needed.
+
+9. **Merge**:
+   Once your PR is approved, it will be merged into the main branch.
+
+.. note::
+
+   Kindly ensure good readability of code.
 

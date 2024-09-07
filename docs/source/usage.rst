@@ -30,8 +30,8 @@ To connect to the production and interim Jenkins servers, use the `connect` func
     - `production_password`: Password for the production server.
     - `interim_password`: Password for the interim server.
     - `mode`: Output mode, either “console” or “quiet”.
-        Quiet mode implies **non-verbose** mode
-        Console mode implies **verbose** mode
+        - Quiet mode implies **non-verbose** mode
+        - Console mode implies **verbose** mode
 
 .. tip::
 

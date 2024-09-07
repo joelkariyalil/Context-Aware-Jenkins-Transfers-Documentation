@@ -31,6 +31,19 @@ To connect to the production and interim Jenkins servers, use the `connect` func
     - `interim_password`: Password for the interim server.
     - `mode`: Output mode, either “console” or “quiet”.
 
+.. tip::
+
+    The best security practice would include passing usernames & passwords as .env variables.
+
+    :: code-block:: python
+
+        import os
+
+        production_username = os.environ['production_username']
+        production_password = os.environ.get('production_password', None)
+
+
+
 Example usage:
 
 .. code-block:: console

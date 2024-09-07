@@ -17,7 +17,6 @@ Social Media
 ------------
 
 - `Joel Thomas Chacko on LinkedIn <https://www.linkedin.com/in/joelkariyalil/>`_
-- `Joel Thomas Chacko on Instagram <https://www.instagram.com/joelkariyalil>`_
 - `Send an Email <mailto:joelkariyalil@gmail.com>`_
 
 Support the Author

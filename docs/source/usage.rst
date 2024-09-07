@@ -47,6 +47,11 @@ Example usage:
         mode='quiet'
         )
 
+
+.. warning::
+
+    Connecting both Jenkins servers at the beginning is necessary.
+
 Transfer Jobs or Views
 
 To transfer jobs or views from interim to production, use the `transfer` function:

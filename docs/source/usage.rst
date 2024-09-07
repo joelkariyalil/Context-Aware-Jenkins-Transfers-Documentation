@@ -95,7 +95,7 @@ To transfer jobs or views from interim to production, use the `transfer` functio
     )
 
 
-
+----
 
 Check Publish Standards
 ___________________
@@ -122,6 +122,9 @@ To verify if the jobs or views meet the publish standards, use the `check_publis
         ftype="job", 
         mode="console"
     )
+
+
+----
 
 Check Plugin Dependencies
 ___________________
@@ -150,7 +153,7 @@ To check plugin dependencies for jobs or views, use the `check_plugin_dependenci
 
 
 
-
+----
 
 Check and Install Plugin Dependencies
 ___________________
@@ -179,7 +182,7 @@ To check and install missing plugin dependencies, use the `check_and_install_plu
 
 
 
-
+----
 
 Clean Up Production
 ___________________
@@ -202,7 +205,7 @@ To clean up the production Jenkins server, use the `production_cleanup` function
 
 
 
-
+----
 
 Clean Up Interim
 ___________________
@@ -225,7 +228,7 @@ To clean up the interim Jenkins server, use the `interim_cleanup` function:
 
 
 
-
+----
 
 Set Console Size
 ___________________

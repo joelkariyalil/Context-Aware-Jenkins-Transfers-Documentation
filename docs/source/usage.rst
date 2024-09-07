@@ -35,7 +35,7 @@ To connect to the production and interim Jenkins servers, use the `connect` func
 
     The best security practice would include passing usernames & passwords as .env variables.
 
-    :: code-block:: python
+    .. code-block:: python
 
         import os
 

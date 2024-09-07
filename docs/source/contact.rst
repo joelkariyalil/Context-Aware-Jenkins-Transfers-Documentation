@@ -10,15 +10,16 @@ Joel Thomas Chacko
 ------------------
 
 Hello there, I'm Joel Thomas Chacko, a git :).
+Optimizing life bit by bit.
 
 Here are my social media handles.
 
 Social Media
 ------------
 
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-handle)
-- **Instagram**: [Your Instagram Profile](https://www.instagram.com/your-instagram-handle)
-- **Email**: [Your Gmail](mailto:your-email@gmail.com)
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/joelkariyalil/)
+- **Instagram**: [Your Instagram Profile](https://www.instagram.com/joelkariyalil)
+- **Email**: [Your Gmail](mailto:joelkariyalil@gmail.com)
 
 Support the Author
 ------------------

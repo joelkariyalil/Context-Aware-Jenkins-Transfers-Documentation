@@ -1,13 +1,12 @@
 Supported Functionalities
 -------------------------
 
-.. note:
+.. note::
 
     mode = 'quiet' or 'console'
         - 'quiet' is complete non-verbose (success, failure messages are NOT printed on console)
         - 'console' is verbose
     By default, mode is 'console'.
-
 
 Connect to Jenkins Servers
 ___________________
@@ -19,7 +18,7 @@ To connect to the production and interim Jenkins servers, use the `connect` func
 
 .. code-block:: python
 
-    import jenkins_job_transfers as jt
+    import context_aware_jenkins_job_transfers as jt
 
     jt.connect(
         production_machine_url,
@@ -52,14 +51,12 @@ To connect to the production and interim Jenkins servers, use the `connect` func
         production_username = os.environ['production_username']
         production_password = os.environ.get('production_password', None)
 
-
-
 **Example usage**
 ^^^^
 
 .. code-block:: python
 
-    import jenkins_job_transfers as jt
+    import context_aware_jenkins_job_transfers as jt
 
     jt.connect(
         production_machine_url='http://127.0.0.1:8080',
@@ -67,129 +64,170 @@ To connect to the production and interim Jenkins servers, use the `connect` func
         production_username='production_username',
         interim_username='interim_username',
         production_password='production_password',
-        interim_password='interim_password,
+        interim_password='interim_password',
         mode='quiet'
-        )
-
+    )
 
 .. warning::
 
     Connecting Jenkins servers before initiating other functions is necessary.
 
 Transfer Jobs or Views
+___________________
 
 To transfer jobs or views from interim to production, use the `transfer` function:
 
-Parameters:
+**Parameters**
+^^^^^^
+
     - `publish_list`: List of jobs or views to be transferred.
     - `ftype`: Type of transfer, either “job” or “view”.
     - `mode`: Output mode, either “console” or “quiet”.
     - `allowDuplicates`: Boolean to allow duplicate jobs.
 
-**Example usage**:
+**Example usage**
+^^^^
 
-from context_aware_jenkins_job_transfers import transfer
+.. code-block:: python
 
-transfer(
-    ["job1", "job2"], 
-    ftype="job", 
-    mode="console", 
-    allowDuplicates=True
-)
+    from context_aware_jenkins_job_transfers import transfer
+
+    transfer(
+        ["job1", "job2"], 
+        ftype="job", 
+        mode="console", 
+        allowDuplicates=True
+    )
 
 Check Publish Standards
+___________________
 
 To verify if the jobs or views meet the publish standards, use the `check_publish_standards` function:
 
-Parameters:
-- `publish_list`: List of jobs or views to check.
-- `ftype`: Type of check, either “job” or “view”.
-- `mode`: Output mode, either “console” or “quiet”.
-- `allowDuplicates`: Boolean to allow duplicate jobs.
+**Parameters**
+^^^^^^
 
-Example usage:
+    - `publish_list`: List of jobs or views to check.
+    - `ftype`: Type of check, either “job” or “view”.
+    - `mode`: Output mode, either “console” or “quiet”.
+    - `allowDuplicates`: Boolean to allow duplicate jobs.
 
-from context_aware_jenkins_job_transfers import check_publish_standards
+**Example usage**
+^^^^
 
-check_publish_standards(
-    ["job1", "job2"], 
-    ftype="job", 
-    mode="console"
-)
+.. code-block:: python
+
+    from context_aware_jenkins_job_transfers import check_publish_standards
+
+    check_publish_standards(
+        ["job1", "job2"], 
+        ftype="job", 
+        mode="console"
+    )
 
 Check Plugin Dependencies
+___________________
 
 To check plugin dependencies for jobs or views, use the `check_plugin_dependencies` function:
 
-Parameters:
-- `publish_list`: List of jobs or views to check.
-- `ftype`: Type of check, either “job” or “view”.
-- `mode`: Output mode, either “console” or “quiet”.
+**Parameters**
+^^^^^^
 
-Example usage:
+    - `publish_list`: List of jobs or views to check.
+    - `ftype`: Type of check, either “job” or “view”.
+    - `mode`: Output mode, either “console” or “quiet”.
 
-from context_aware_jenkins_job_transfers import check_plugin_dependencies
+**Example usage**
+^^^^
 
-check_plugin_dependencies(
-    ["job1", "view1"], 
-    ftype="view", 
-    mode="console"
-)
+.. code-block:: python
+
+    from context_aware_jenkins_job_transfers import check_plugin_dependencies
+
+    check_plugin_dependencies(
+        ["job1", "view1"], 
+        ftype="view", 
+        mode="console"
+    )
 
 Check and Install Plugin Dependencies
+___________________
 
 To check and install missing plugin dependencies, use the `check_and_install_plugin_dependencies` function:
 
-Parameters:
-- `publish_list`: List of jobs or views to check and install dependencies for.
-- `ftype`: Type of check, either “job” or “view”.
-- `mode`: Output mode, either “console” or “quiet”.
+**Parameters**
+^^^^^^
 
-Example usage:
+    - `publish_list`: List of jobs or views to check and install dependencies for.
+    - `ftype`: Type of check, either “job” or “view”.
+    - `mode`: Output mode, either “console” or “quiet”.
 
-from context_aware_jenkins_job_transfers import check_and_install_plugin_dependencies
+**Example usage**
+^^^^
 
-check_and_install_plugin_dependencies(
-    ["job1", "view1"], 
-    ftype="job", 
-    mode="console"
-)
+.. code-block:: python
+
+    from context_aware_jenkins_job_transfers import check_and_install_plugin_dependencies
+
+    check_and_install_plugin_dependencies(
+        ["job1", "view1"], 
+        ftype="job", 
+        mode="console"
+    )
 
 Clean Up Production
+___________________
 
 To clean up the production Jenkins server, use the `production_cleanup` function:
 
-Parameters:
-- `mode`: Output mode, either “console” or “quiet”.
+**Parameters**
+^^^^^^
 
-Example usage:
+    - `mode`: Output mode, either “console” or “quiet”.
 
-from context_aware_jenkins_job_transfers import production_cleanup
+**Example usage**
+^^^^
 
-production_cleanup(mode="console")
+.. code-block:: python
+
+    from context_aware_jenkins_job_transfers import production_cleanup
+
+    production_cleanup(mode="console")
 
 Clean Up Interim
+___________________
 
 To clean up the interim Jenkins server, use the `interim_cleanup` function:
 
-Parameters:
-- `mode`: Output mode, either “console” or “quiet”.
+**Parameters**
+^^^^^^
 
-Example usage:
+    - `mode`: Output mode, either “console” or “quiet”.
 
-from context_aware_jenkins_job_transfers import interim_cleanup
+**Example usage**
+^^^^
 
-interim_cleanup(mode="console")
+.. code-block:: python
+
+    from context_aware_jenkins_job_transfers import interim_cleanup
+
+    interim_cleanup(mode="console")
 
 Set Console Size
+___________________
 
 To set the width of the console output, use the `set_console_size` function:
 
-Parameters:
-- `width`: Desired console width.
+**Parameters**
+^^^^^^
 
-Example usage:
+    - `width`: Desired console width.
 
-from context_aware_jenkins_job_transfers import set_console_size
+**Example usage**
+^^^^
 
-set_console_size(120)
+.. code-block:: python
+
+    from context_aware_jenkins_job_transfers import set_console_size
+
+    set_console_size(120)

@@ -13,7 +13,7 @@ ___________________
 
 To connect to the production and interim Jenkins servers, use the `connect` function:
 
-**Function Syntax:**
+**Function Syntax**
 ^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: python
@@ -29,7 +29,8 @@ To connect to the production and interim Jenkins servers, use the `connect` func
         interim_password
     )
 
-**Parameters:**
+**Parameters**
+^^^^^^
 
     - `production_machine_url`: URL of the production Jenkins server.
     - `interim_machine_url`: URL of the interim Jenkins server.
@@ -54,7 +55,8 @@ To connect to the production and interim Jenkins servers, use the `connect` func
 
 
 
-**Example usage**:
+**Example usage**
+^^^^
 
 .. code-block:: python
 

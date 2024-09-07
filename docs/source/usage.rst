@@ -2,7 +2,7 @@ Supported Functionalities
 -------------------------
 
 Connect to Jenkins Servers
-----
+___________________
 
 To connect to the production and interim Jenkins servers, use the `connect` function:
 

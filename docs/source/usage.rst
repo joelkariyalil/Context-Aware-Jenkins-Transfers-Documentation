@@ -44,7 +44,7 @@ To connect to the production and interim Jenkins servers, use the `connect` func
 
 
 
-Example usage:
+**Example usage**:
 
 .. code-block:: python
 

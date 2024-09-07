@@ -16,13 +16,13 @@ Here are my social media handles.
 Social Media
 ------------
 
-- **LinkedIn**: `Joel Thomas Chacko on LinkedIn <https://www.linkedin.com/in/joelkariyalil/>`_
-- **Instagram**: `Joel Thomas Chacko on Instagram <https://www.instagram.com/joelkariyalil>`_
-- **Email**: `Send an Email <mailto:joelkariyalil@gmail.com>`_
+- `Joel Thomas Chacko on LinkedIn <https://www.linkedin.com/in/joelkariyalil/>`_
+- `Joel Thomas Chacko on Instagram <https://www.instagram.com/joelkariyalil>`_
+- `Send an Email <mailto:joelkariyalil@gmail.com>`_
 
 Support the Author
 ------------------
 
-If you found this project helpful, consider supporting me on Buy Me a Coffee:
+If you found this project helpful, consider supporting me here
 
 `Buy Me a Coffee <https://buymeacoffee.com/joelkariyalil>`_

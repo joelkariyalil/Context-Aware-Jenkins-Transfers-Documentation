@@ -7,7 +7,7 @@ Supported Functionalities
         - 'quiet' is complete non-verbose (success, failure messages are NOT printed on console)
         - 'console' is verbose
     By default, mode is 'console'.
-    
+
 
 Connect to Jenkins Servers
 ___________________
@@ -40,8 +40,6 @@ To connect to the production and interim Jenkins servers, use the `connect` func
     - `production_password`: Password for the production server.
     - `interim_password`: Password for the interim server.
     - `mode`: Output mode, either “console” or “quiet”.
-        - Quiet mode implies **non-verbose** mode
-        - Console mode implies **verbose** mode
 
 .. tip::
 

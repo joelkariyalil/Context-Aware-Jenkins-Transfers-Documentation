@@ -23,8 +23,8 @@ To connect to the production and interim Jenkins servers, use the `connect` func
 
 **Parameters:**
 
-    - **`production_machine_url`**: URL of the production Jenkins server.
-    - **`interim_machine_url`**: URL of the interim Jenkins server.
+    - `**production_machine_url**`: URL of the production Jenkins server.
+    - `interim_machine_url`: URL of the interim Jenkins server.
     - `production_username`: Username for the production server.
     - `interim_username`: Username for the interim server.
     - `production_password`: Password for the production server.

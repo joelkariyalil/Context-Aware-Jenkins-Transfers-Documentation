@@ -30,7 +30,6 @@ Contents
 
    installation
    usage
-   apiReference
    changeLog
    contribution
    license

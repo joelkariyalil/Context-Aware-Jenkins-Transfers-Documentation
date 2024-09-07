@@ -6,7 +6,23 @@ Connect to Jenkins Servers
 
 To connect to the production and interim Jenkins servers, use the `connect` function:
 
-Parameters:
+**Function Syntax:**
+
+..code-block:: console
+
+    import jenkins_job_transfers as jt
+
+    jt.connect(
+        production_machine_url,
+        interim_machine_url,
+        production_username,
+        interim_username,
+        production_password,
+        interim_password
+    )
+
+**Parameters:**
+
     - `production_machine_url`: URL of the production Jenkins server.
     - `interim_machine_url`: URL of the interim Jenkins server.
     - `production_username`: Username for the production server.
@@ -36,10 +52,10 @@ Transfer Jobs or Views
 To transfer jobs or views from interim to production, use the `transfer` function:
 
 Parameters:
-- `publish_list`: List of jobs or views to be transferred.
-- `ftype`: Type of transfer, either “job” or “view”.
-- `mode`: Output mode, either “console” or “quiet”.
-- `allowDuplicates`: Boolean to allow duplicate jobs.
+    - `publish_list`: List of jobs or views to be transferred.
+    - `ftype`: Type of transfer, either “job” or “view”.
+    - `mode`: Output mode, either “console” or “quiet”.
+    - `allowDuplicates`: Boolean to allow duplicate jobs.
 
 Example usage:
 

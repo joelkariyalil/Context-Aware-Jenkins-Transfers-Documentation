@@ -13,21 +13,6 @@ ___________________
 
 To connect to the production and interim Jenkins servers, use the `connect` function:
 
-**Function Syntax**
-^^^^^^^^^^^^^^^^^^^
-
-.. code-block:: python
-
-    import context_aware_jenkins_job_transfers as jt
-
-    jt.connect(
-        production_machine_url,
-        interim_machine_url,
-        production_username,
-        interim_username,
-        production_password,
-        interim_password
-    )
 
 **Parameters**
 ^^^^^^

@@ -4,7 +4,7 @@ Supported Functionalities
 .. note::
 
     mode = 'quiet' or 'console'
-        - 'quiet' is complete non-verbose (success, failure messages are NOT printed on console)
+        - 'quiet' is non-verbose (success, failure messages are NOT printed on console)
         - 'console' is verbose
     By default, mode is 'console'.
 

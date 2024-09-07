@@ -46,7 +46,7 @@ To connect to the production and interim Jenkins servers, use the `connect` func
 
 Example usage:
 
-.. code-block:: console
+.. code-block:: python
 
     import jenkins_job_transfers as jt
 

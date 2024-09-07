@@ -1,12 +1,18 @@
 Supported Functionalities
 -------------------------
 
+
+
+
 .. note::
 
     mode = 'quiet' or 'console'
         - 'quiet' is complete non-verbose (success, failure messages are NOT printed on console)
         - 'console' is verbose
     By default, mode is 'console'.
+
+
+
 
 Connect to Jenkins Servers
 ___________________
@@ -57,6 +63,10 @@ To connect to the production and interim Jenkins servers, use the `connect` func
 
     Connecting Jenkins servers before initiating other functions is necessary.
 
+
+
+
+
 Transfer Jobs or Views
 ___________________
 
@@ -83,6 +93,9 @@ To transfer jobs or views from interim to production, use the `transfer` functio
         mode="console", 
         allowDuplicates=True
     )
+
+
+
 
 Check Publish Standards
 ___________________
@@ -135,6 +148,10 @@ To check plugin dependencies for jobs or views, use the `check_plugin_dependenci
         mode="console"
     )
 
+
+
+
+
 Check and Install Plugin Dependencies
 ___________________
 
@@ -160,6 +177,10 @@ To check and install missing plugin dependencies, use the `check_and_install_plu
         mode="console"
     )
 
+
+
+
+
 Clean Up Production
 ___________________
 
@@ -179,6 +200,10 @@ To clean up the production Jenkins server, use the `production_cleanup` function
 
     production_cleanup(mode="console")
 
+
+
+
+
 Clean Up Interim
 ___________________
 
@@ -197,6 +222,10 @@ To clean up the interim Jenkins server, use the `interim_cleanup` function:
     from context_aware_jenkins_job_transfers import interim_cleanup
 
     interim_cleanup(mode="console")
+
+
+
+    
 
 Set Console Size
 ___________________

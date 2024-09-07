@@ -1,6 +1,3 @@
-Here's a sample FAQ section for your documentation in reStructuredText (reST) format for Read the Docs. The section uses code blocks, links, and tips for a well-organized presentation:
-
-```rst
 FAQs
 ====
 
@@ -27,12 +24,12 @@ You can use the `connect` function to connect to your Jenkins server.
     import jenkins_job_transfers as jt
 
     jt.connect(
-        production_machine_url='http://prod-server-url',
-        interim_machine_url='http://int-server-url',
-        production_username='your_username',
-        interim_username='your_username',
-        production_password='your_password',
-        interim_password='your_password'
+        production_machine_url='http://prod-server-url:port',
+        interim_machine_url='http://int-server-url:port',
+        production_username='production_username',
+        interim_username='interim_username',
+        production_password='production_password',
+        interim_password='interim_password'
     )
 
 For more details on the connection parameters, see the **Connect to Jenkins Servers** section of this documentation.
@@ -70,7 +67,3 @@ You can use the `check_and_install_plugin_dependencies` function to automaticall
 **Q7: What does the 'quiet' mode do?**
 --------------------------------------
 The `quiet` mode suppresses all non-error messages, making the output less verbose. Use `mode="quiet"` if you want to minimize console output.
-
-```
-
-This structure is easy to follow, and you can add more FAQs depending on the needs of your users.

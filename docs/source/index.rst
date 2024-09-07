@@ -33,7 +33,7 @@ Contents
    apiReference
    changeLog
    contribution
-   troubleShootingAndFaqs
-   acknowledgement
    license
+   FAQs
    contact
+   acknowledgement

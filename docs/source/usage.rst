@@ -62,7 +62,7 @@ Parameters:
     - `mode`: Output mode, either “console” or “quiet”.
     - `allowDuplicates`: Boolean to allow duplicate jobs.
 
-Example usage:
+**Example usage**:
 
 from context_aware_jenkins_job_transfers import transfer
 

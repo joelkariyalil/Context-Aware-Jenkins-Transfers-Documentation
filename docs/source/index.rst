@@ -18,7 +18,6 @@ Overview of the Capabilities
 
 Check out the :doc:`usage` section for further information, including the :ref:`installation` the project.
 
-
 Contents
 --------
 

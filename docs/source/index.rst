@@ -16,8 +16,7 @@ Overview of the Capabilities
 **Visualize all the above functionalities in a well-crafted terminal screen.**
 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`usage` section for further information, including the :ref:`installation` the project.
 
 Contents
 --------

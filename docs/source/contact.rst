@@ -8,7 +8,7 @@ Feel free to reach out if you have any questions, suggestions, or feedback!
 .. image:: _static/authorDP.jpg
    :alt: Joel Thomas Chacko
    :align: center
-   :width: 150px
+   :width: 200px
    :class: author-image
 
 ----

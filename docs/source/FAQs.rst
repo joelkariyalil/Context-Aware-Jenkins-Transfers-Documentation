@@ -1,7 +1,7 @@
 FAQs
 ====
 
-**Q1: How do I install the module?**
+Q1: How do I install the module?
 ------------------------------------
 To install the `context-aware-jenkins-job-transfers` module, use pip:
 
@@ -11,11 +11,11 @@ To install the `context-aware-jenkins-job-transfers` module, use pip:
 
 For more detailed installation steps, refer to the Installation section.
 
-**Q2: What Jenkins versions are supported?**
+Q2: What Jenkins versions are supported?
 --------------------------------------------
 The module supports Jenkins versions 2.249.1 and above. Earlier versions may not have full compatibility due to plugin changes.
 
-**Q3: How do I connect to my Jenkins server?**
+Q3: How do I connect to my Jenkins server?
 ---------------------------------------------
 You can use the `connect` function to connect to your Jenkins server.
 
@@ -34,7 +34,7 @@ You can use the `connect` function to connect to your Jenkins server.
 
 For more details on the connection parameters, see the **Connect to Jenkins Servers** section of this documentation.
 
-**Q4: How can I contribute to this project?**
+Q4: How can I contribute to this project?
 --------------------------------------------
 Contributions are welcome! Please follow the steps below:
 
@@ -52,11 +52,11 @@ Contributions are welcome! Please follow the steps below:
 
 For detailed contribution guidelines, refer to the **Contributions** section.
 
-**Q5: Can I transfer both jobs and views at the same time?**
+Q5: Can I transfer both jobs and views at the same time?
 -----------------------------------------------------------
 Yes, you can transfer both jobs and views, but they need to be done separately by specifying the `ftype` parameter in the `transfer` function.
 
-**Q6: How do I handle plugin dependencies?**
+Q6: How do I handle plugin dependencies?
 -------------------------------------------
 You can use the `check_and_install_plugin_dependencies` function to automatically check and install missing dependencies.
 
@@ -64,6 +64,6 @@ You can use the `check_and_install_plugin_dependencies` function to automaticall
 
     It is recommended to run the plugin checks before transferring jobs to avoid failures.
 
-**Q7: What does the 'quiet' mode do?**
+Q7: What does the 'quiet' mode do?
 --------------------------------------
 The `quiet` mode suppresses all non-error messages, making the output less verbose. Use `mode="quiet"` if you want to minimize console output.

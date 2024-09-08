@@ -8,4 +8,4 @@ List of Contributors
 
 Here are some of the individuals who have contributed to this project:
 
-- - **`Joel Thomas Chacko <https://www.linkedin.com/in/joelkariyalil/>`_**: Lead author and maintainer of the project.
+- - `Joel Thomas Chacko <https://www.linkedin.com/in/joelkariyalil/>`_: Lead author and maintainer of the project.

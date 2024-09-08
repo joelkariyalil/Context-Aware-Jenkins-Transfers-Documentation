@@ -15,9 +15,10 @@ Feel free to reach out if you have any questions, suggestions, or feedback!
 Hello there, I'm Joel Thomas Chacko, a git :).
 Optimizing life bit by bit.
 
-Here are my social media handles.
+----
 
-Social Media
+
+Social Media Handles
 ------------
 
 - `Joel Thomas Chacko on LinkedIn <https://www.linkedin.com/in/joelkariyalil/>`_

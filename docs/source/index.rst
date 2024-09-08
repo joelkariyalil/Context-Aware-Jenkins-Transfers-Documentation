@@ -33,7 +33,7 @@ Contents
    changeLog
    contribution
    license
-   faqs
+   FAQs
    contributors
    contact
    acknowledgement

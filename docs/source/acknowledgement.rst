@@ -8,4 +8,4 @@ A special thanks goes out to Mr. Satish Devendran, Staff Test Architect at Tally
 
 ----
 
-**Acts 4:11-12**
+**Acts 8:39**

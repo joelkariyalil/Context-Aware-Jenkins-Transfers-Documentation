@@ -14,25 +14,3 @@ Overview of the Capabilities
 4. Clean Up Jenkins Servers
 
 **Visualize all the above functionalities in a well-crafted terminal screen.**
-
-
-Check out the :doc:`usage` section for further information, including the :ref:`installation` the project.
-
-
-
-Contents
---------
-
-.. toctree::
-   :maxdepth: 2
-
-   installation
-   usage
-   changeLog
-   contribution
-   license
-   FAQs
-   contributors
-   contact
-   acknowledgement
-   

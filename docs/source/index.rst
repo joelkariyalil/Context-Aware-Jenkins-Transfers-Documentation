@@ -11,16 +11,13 @@ Overview of the Capabilities
 1. Transfer Job(s)
 2. Transfer View(s)
 3. Check for Plugin Dependencies of Jobs/Views
+4. Clean Up Jenkins Servers
 
 **Visualize all the above functionalities in a well-crafted terminal screen.**
 
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
 
 Contents
 --------

@@ -224,6 +224,7 @@ Clean Up Production
 ___________________
 
 To clean up the production Jenkins server, use the `production_cleanup` function:
+All the views without any Jobs in the production are deleted in this operation.
 
 **Parameters**
 ^^^^^^
@@ -247,6 +248,7 @@ Clean Up Interim
 ___________________
 
 To clean up the interim Jenkins server, use the `interim_cleanup` function:
+All the views without any jobs in the interim are deleted during this operation.
 
 **Parameters**
 ^^^^^^

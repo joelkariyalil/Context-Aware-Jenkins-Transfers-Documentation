@@ -1,5 +1,5 @@
 Contact the Author
-=======
+==================
 
 Feel free to reach out if you have any questions, suggestions, or feedback!
 
@@ -7,26 +7,26 @@ Feel free to reach out if you have any questions, suggestions, or feedback!
 
 .. image:: _static/authorDP.jpg
    :alt: Joel Thomas Chacko
-   :align: left
-   :width: 200px
+   :align: center
+   :width: 150px
+   :class: author-image
 
 ----
 
-Hello there, I'm Joel Thomas Chacko, a git :).
-Optimizing life bit by bit.
+Hello! I'm **Joel Thomas Chacko**, a problem solver passionate about optimizing life bit by bit.
 
 ----
-
 
 Social Media Handles
-------------
+--------------------
 
-- `Joel Thomas Chacko on LinkedIn <https://www.linkedin.com/in/joelkariyalil/>`_
-- `Send an Email <mailto:joelkariyalil@gmail.com>`_
+- **LinkedIn**: `Joel Thomas Chacko <https://www.linkedin.com/in/joelkariyalil/>`_
+- **Email**: `joelkariyalil@gmail.com <mailto:joelkariyalil@gmail.com>`_
 
 Support the Author
 ------------------
 
-If you found this project helpful, consider supporting me here
+If you found this project helpful, consider showing your support:
 
-`Buy Me a Coffee <https://buymeacoffee.com/joelkariyalil>`_
+- `Buy Me a Coffee <https://buymeacoffee.com/joelkariyalil>`_
+

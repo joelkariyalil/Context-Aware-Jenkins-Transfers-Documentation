@@ -5,14 +5,12 @@ Feel free to reach out if you have any questions, suggestions, or feedback!
 
 **Author**: Joel Thomas Chacko
 
-Joel Thomas Chacko
-------------------
-
 .. image:: _static/authorDP.jpg
    :alt: Joel Thomas Chacko
-   :align: center
+   :align: left
    :width: 200px
 
+----
 
 Hello there, I'm Joel Thomas Chacko, a git :).
 Optimizing life bit by bit.

@@ -28,6 +28,7 @@ Contents
 
    installation
    usage
+   knownIssues
    changeLog
    contribution
    license
@@ -35,5 +36,4 @@ Contents
    contributors
    contact
    acknowledgement
-   knownIssues
    

@@ -3,80 +3,57 @@ Known Issues
 
 This page tracks known issues, defects, and enhancements for the **Context Aware Jenkins Job Transfers** module. If you encounter any other issues, feel free to report them via our GitHub repository.
 
-.. contents:: Table of Contents
-   :local:
-   :depth: 1
+Abbreviations
+-------------
 
-Defects
--------
-
-.. list-table:: Defects
+.. list-table:: 
    :header-rows: 1
-   :widths: 20 50 15 15
+   :widths: 20 80
 
-   * - Defect ID
+   * - Abbreviation
+     - Meaning
+
+   * - DF
+     - Defect
+
+   * - IS
+     - Issue
+
+   * - EH
+     - Enhancement
+
+
+Known Issues and Enhancements
+-----------------------------
+
+.. list-table:: 
+   :header-rows: 1
+   :widths: 10 10 50 15 15
+
+   * - ID
+     - Type
      - Description
      - Status
      - Workaround
 
-   * - #D001
-     - Views associated with jobs are not appearing on the target Jenkins server.
-     - Fixed (v1.2.1)
-     - Update to the latest version.
-
-   * - #D002
-     - Incorrect job configurations after transfer in some cases.
-     - Investigating
-     - Manually reconfigure affected jobs.
-
-Issues
-------
-
-.. list-table:: Issues
-   :header-rows: 1
-   :widths: 20 50 15 15
-
-   * - Issue ID
-     - Description
-     - Status
-     - Workaround
-
-   * - #IS001
-     - Transfer fails when Jenkins Server is down.
+   * - #001
+     - EH
+     - Time Consuming Processes
      - Open
-     - Ensure both servers are up and reachable.
+     - Multi-threading Could be used to keep track of the Changing factors like Jobs/Views. Hence run-time compute would be a simple-lookup w/o having to ping the servers for responses.
 
-   * - #IS002
-     - Slow transfer speeds when transferring large jobs with numerous builds.
+   * - #002
+     - IS
+     - Plugins Don't Get Installed/Reloaded
+     - Closed
+     - Restart the jenkins server for changes to be Reloaded.
+
+   * - #003
+     - EH
+     - Terminal Window a little cluttered
      - Open
-     - Temporarily transfer jobs in smaller batches.
+     - Better design the terminal window outputs.
 
-   * - #IS003
-     - Error when trying to transfer a job with missing credentials.
-     - Open
-     - Ensure credentials are set up before transferring the job.
-
-Enhancements
-------------
-
-.. list-table:: Enhancements
-   :header-rows: 1
-   :widths: 20 50 15 15
-
-   * - Enhancement ID
-     - Description
-     - Status
-     - Notes
-
-   * - #EH001
-     - Add support for parallel job transfers.
-     - Open
-     - Awaiting feedback.
-
-   * - #EH002
-     - Improve error logging for better troubleshooting.
-     - Open
-     - To be implemented in v1.3.0.
 
 How to Report an Issue
 ----------------------

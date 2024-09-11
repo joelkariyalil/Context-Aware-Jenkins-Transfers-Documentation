@@ -35,4 +35,5 @@ Contents
    contributors
    contact
    acknowledgement
+   knownIssues
    

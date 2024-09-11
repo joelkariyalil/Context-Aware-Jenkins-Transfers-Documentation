@@ -1,9 +1,38 @@
 Known Issues
 ============
 
-This page tracks known issues and their status for the **Context Aware Jenkins Job Transfers** module. If you encounter any other issues, feel free to report them via our GitHub repository.
+This page tracks known issues, defects, and enhancements for the **Context Aware Jenkins Job Transfers** module. If you encounter any other issues, feel free to report them via our GitHub repository.
 
-.. list-table:: Known Issues
+.. contents:: Table of Contents
+   :local:
+   :depth: 1
+
+Defects
+-------
+
+.. list-table:: Defects
+   :header-rows: 1
+   :widths: 20 50 15 15
+
+   * - Defect ID
+     - Description
+     - Status
+     - Workaround
+
+   * - #D001
+     - Views associated with jobs are not appearing on the target Jenkins server.
+     - Fixed (v1.2.1)
+     - Update to the latest version.
+
+   * - #D002
+     - Incorrect job configurations after transfer in some cases.
+     - Investigating
+     - Manually reconfigure affected jobs.
+
+Issues
+------
+
+.. list-table:: Issues
    :header-rows: 1
    :widths: 20 50 15 15
 
@@ -12,30 +41,42 @@ This page tracks known issues and their status for the **Context Aware Jenkins J
      - Status
      - Workaround
 
-   * - #001
+   * - #IS001
      - Transfer fails when Jenkins Server is down.
      - Open
-     - Ensure that both servers are up and reachable.
+     - Ensure both servers are up and reachable.
 
-   * - #002
-     - Plugin dependencies are not transferred correctly in some cases.
-     - Investigating
-     - Manually verify plugin versions on both servers.
-
-   * - #003
-     - Views associated with jobs are not appearing on the target Jenkins server.
-     - Fixed (v1.2.1)
-     - Update the module to the latest version.
-
-   * - #004
+   * - #IS002
      - Slow transfer speeds when transferring large jobs with numerous builds.
      - Open
      - Temporarily transfer jobs in smaller batches.
 
-   * - #005
+   * - #IS003
      - Error when trying to transfer a job with missing credentials.
      - Open
-     - Ensure credentials are set up correctly before transferring the job.
+     - Ensure credentials are set up before transferring the job.
+
+Enhancements
+------------
+
+.. list-table:: Enhancements
+   :header-rows: 1
+   :widths: 20 50 15 15
+
+   * - Enhancement ID
+     - Description
+     - Status
+     - Notes
+
+   * - #EH001
+     - Add support for parallel job transfers.
+     - Open
+     - Awaiting feedback.
+
+   * - #EH002
+     - Improve error logging for better troubleshooting.
+     - Open
+     - To be implemented in v1.3.0.
 
 How to Report an Issue
 ----------------------

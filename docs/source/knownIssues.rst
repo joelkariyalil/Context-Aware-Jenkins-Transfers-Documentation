@@ -40,7 +40,7 @@ Known Issues and Enhancements
      - EH
      - Time Consuming Processes
      - Open
-     - Multi-threading Could be used to keep track of the Changing factors like Jobs/Views. Hence run-time compute would be a simple-lookup w/o having to ping the servers for responses.
+     - Multi-threading Could be used to keep track of changing factors like Jobs/Views. Hence run-time compute would be a simple-lookup w/o having to ping the servers for responses.
 
    * - #002
      - IS

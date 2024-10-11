@@ -5,6 +5,8 @@ Welcome to Context Aware Jenkins Job Transfers' Documentation!
 It is essentially a python wrapper for the Jenkins REST API.
 Users will now be able to transfer jobs along with it's associated views and plugins, aka, a Context Aware Jenkins Job Transfer.
 
+This module is authored by `Joel Thomas Chacko <https://www.linkedin.com/in/joelkariyalil/>`_.
+
 Overview of the Capabilities
 ----
 

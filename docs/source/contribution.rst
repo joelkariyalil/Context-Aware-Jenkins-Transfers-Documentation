@@ -23,7 +23,7 @@ We welcome contributions to enhance the functionality and performance of this mo
 
    .. code-block:: bash
 
-      $ git commit -m "Description of the changes"
+      $ git commit -m "Description Of the Changes"
 
 6. **Push to Your Fork**:
 

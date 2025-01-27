@@ -30,6 +30,7 @@ Contents
 
    installation
    usage
+   testingModule
    knownIssues
    changeLog
    contribution

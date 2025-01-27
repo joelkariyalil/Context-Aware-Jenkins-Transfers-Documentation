@@ -3,11 +3,11 @@
 # -- Project information
 
 project = 'Context-Aware-Jenkins-Job-Transfers'
-copyright = 'MIT License'
+copyright = 'Apache-2.0 License'
 author = 'Joel Thomas Chacko'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.1'
+version = '1.1.0'
 
 # -- General configuration
 

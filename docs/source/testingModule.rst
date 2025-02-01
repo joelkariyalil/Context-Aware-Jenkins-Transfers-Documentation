@@ -1,4 +1,4 @@
-Testing the Developments on the Module
+Testing Module Developments
 -----------------------------
 
 This is an attempt to ensure that the module developers would be able to run a basic module-verification-test to ensure the correct working of the module's core functionalities.
